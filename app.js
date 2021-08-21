@@ -23,6 +23,7 @@ searchButton.addEventListener("click", (e)=>{
        
         console.log(response)
         if(response.status === 404){
+            errorDiv.style.display="block"; 
             console.log("Not found")
             errorDiv.innerText = `Not Found ${userText}, no GitHub account exists with this username.`
         }else{
