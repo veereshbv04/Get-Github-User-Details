@@ -51,7 +51,7 @@ searchButton.addEventListener("click", (e)=>{
             ["Name : ", name],
             ["last Active : ",  last_active],
             ["User ID : ",  id],
-            ["Account Acreated on : ", created],
+            ["Account created on : ", created],
             ["Website : ", website],
             ["company : " , company],
             ["Number of Followers : " , followers],
