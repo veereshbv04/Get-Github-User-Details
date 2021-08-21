@@ -31,4 +31,13 @@ div{
     background-color:rgba(108, 148, 16, 0.979);
     width: 100%;
     padding-right:2rem ;
+    border-top-left-radius: 5rem;
+}
+a{
+    color: aqua;
+
+}
+
+footer{
+    text-align: center;
 }
